@@ -1,0 +1,127 @@
+:root {
+  --navy-blue: #2e2f42;
+  --slate: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.rmv-bullet {
+  list-style-type: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 1;
+  color: var(--navy-blue);
+}
+
+.logo span {
+  color: #4d5ae5;
+}
+
+.nav-bar {
+  color: var(--navy-blue);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.nav-bar:hover,
+.nav-bar:active {
+  color: #4d5ae5;
+  text-decoration: underline;
+  text-decoration-color: #4d5ae5;
+}
+
+.nav-right {
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+.nav-right:hover,
+.nav-bar:active {
+  color: #4d5ae5;
+}
+h1 {
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1;
+  /* for viewing purposes. I didnt change the default color */
+  /* color: #ffffff; */
+}
+
+.btn-studio-mid {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  background-color: #4d5ae5;
+  color: #ffffff;
+}
+
+.btn-studio-mid:hover {
+  background-color: #404bbf;
+}
+
+ul li h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+
+ul li p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  text-align: center;
+  color: var(--navy-blue);
+  line-height: 1;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--navy-blue);
+}
+.team-title {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--slate);
+}
+
+footer p {
+  line-height: 1.5;
+  font-size: 16px;
+  /* for viewing purposes. I didnt change the default color */
+  /* color: #ffffff; */
+}
+
+/* Portfolio */
+.btn-portfolio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  cursor: pointer;
+  background-color: #e7e9fc;
+  color: #4d5ae5;
+}
+
+.btn-portfolio-first {
+  color: white;
+  background-color: #404bbf;
+}
