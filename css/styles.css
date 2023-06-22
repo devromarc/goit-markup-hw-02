@@ -108,9 +108,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   cursor: pointer;
-  background-color: #e7e9fc;
+  background-color: #f4f4fd;
   color: #4d5ae5;
-  border: 1px solid #4d5ae5;
+  border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
 
@@ -123,9 +123,11 @@ body {
 .btn-portfolio:hover {
   color: white;
   background-color: #404bbf;
+  border: 1px solid #404bbf;
 }
 
 .btn-portfolio-active {
   color: white;
   background-color: #404bbf;
+  border: 1px solid #404bbf;
 }
