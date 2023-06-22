@@ -7,7 +7,9 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.rmv-bullet {
+.rmv-bullet,
+.filter-btn,
+.projects {
   list-style-type: none;
 }
 
@@ -31,25 +33,27 @@ body {
   line-height: 1.5;
 }
 
-.nav-bar:hover,
-.nav-bar:active {
-  color: #4d5ae5;
-  text-decoration: underline;
-  text-decoration-color: #4d5ae5;
+.nav-active {
+  color: #404bbf;
 }
-
-.nav-right {
-  text-decoration: none;
+.nav-right,
+.desc-second-section,
+.team-title,
+.projects-desc {
   font-size: 16px;
   line-height: 1.5;
   color: var(--slate);
+}
+
+.nav-right-decor {
+  text-decoration: none;
 }
 
 .nav-right:hover,
 .nav-bar:active {
   color: #4d5ae5;
 }
-h1 {
+.hero-title {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
@@ -65,26 +69,24 @@ h1 {
   cursor: pointer;
   background-color: #4d5ae5;
   color: #ffffff;
+  border: none;
+  border-radius: 4px;
 }
 
 .btn-studio-mid:hover {
   background-color: #404bbf;
 }
 
-ul li h3 {
+.title-second-section,
+.team-name,
+.projects-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: var(--navy-blue);
 }
 
-ul li p {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--slate);
-}
-
-h2 {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   text-align: center;
@@ -92,26 +94,15 @@ h2 {
   line-height: 1;
 }
 
-.team-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--navy-blue);
-}
-.team-title {
-  font-size: 16px;
-  line-height: 1.5;
-  color: var(--slate);
-}
-
-footer p {
+.desc-footer {
   line-height: 1.5;
   font-size: 16px;
   /* for viewing purposes. I didnt change the default color */
   /* color: #ffffff; */
 }
 
-/* Portfolio */
+/* Portfolio*/
+
 .btn-portfolio {
   font-weight: 500;
   font-size: 16px;
@@ -119,9 +110,22 @@ footer p {
   cursor: pointer;
   background-color: #e7e9fc;
   color: #4d5ae5;
+  border: 1px solid #4d5ae5;
+  border-radius: 4px;
 }
 
-.btn-portfolio-first {
+.filter-btn {
+  list-style-type: none;
+}
+.projects {
+  list-style-type: none;
+}
+.btn-portfolio:hover {
+  color: white;
+  background-color: #404bbf;
+}
+
+.btn-portfolio-active {
   color: white;
   background-color: #404bbf;
 }
